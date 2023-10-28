@@ -1,0 +1,15 @@
+@use "../abstracts";
+/***components***/
+.btn {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  width: 50px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &--primary {
+    background: abstracts.$primary-color;
+  }
+}
